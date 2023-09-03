@@ -2,7 +2,7 @@
 Author: Will Winterbotham    Date: Sep 2023
 
 Files are in the following order: 
-   1. File which retrieves UK data from ONS and FRED. FRED API is used, which requires a key. Data is transformed and prepared for analysis.
+   1. File which retrieves UK data from ONS and FRED. FRED API is used, which requires a key. Data is transformed and prepared for analysis
    2. Estimation of the 1-Month ahead forecasts
    3. Estimation of the 3-Month ahead forecasts
    4. Estimation of the 12-Month ahead forecasts
