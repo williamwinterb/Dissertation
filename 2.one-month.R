@@ -1,5 +1,5 @@
 ##############################
-'4. Forecasting Models Recursively, 1-Month Ahead'
+'2. Forecasting Models Recursively, 1-Month Ahead'
 #Author: Will Winterbotham 
 #Date: June 26th 2023
 # 1/N ~ Forecasting with three lags, one step ahead (Y_(t+1) = Y_(t) + Y_(t1) + Y(t-2))
