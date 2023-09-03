@@ -17,7 +17,7 @@ library(fredr)
 library(tidyverse)
 
 #enter unique API key
-fredr_set_key("7d87f40427096d79c714cd7b68b6ab1e")
+fredr_set_key(## ENTER UNIQUE API CODE ##)
 
 ##############################
 'Retrieve CPI Inflation from ONS'
