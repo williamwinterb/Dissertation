@@ -279,14 +279,6 @@ xgb_tune_sliding <- vector(length = test_length)
 #set cores 
 registerDoParallel(cores=3)
 
-#tuning validation params NOT USED
-myTimeControl_sliding <- trainControl(method = "timeslice",
-                                      initialWindow = 360,
-                                      horizon = 1,
-                                      skip = ,
-                                      fixedWindow = TRUE,
-                                      allowParallel = TRUE)
-
 #run model
 system.time(
   for(ii in (train_length+1):t_length){
